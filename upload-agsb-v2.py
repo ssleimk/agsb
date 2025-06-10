@@ -31,11 +31,11 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "lanyu0610"         # 用户名
+USER_NAME = "tianying10"         # 用户名
 UUID = "a91b59b6-ade4-497d-b4e9-88d184c48048"                     # UUID，留空则自动生成
 PORT = 12250                   # Vmess端口，留空或0则自动生成
-DOMAIN = "v.l522.dpdns.org"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiMWIzZDQ4N2NhOGRjY2I2ODJkN2QwMDBlMGE5ODA2Y2MiLCJ0IjoiZmJmOWRkMzAtMTgxMy00ZWQyLWEzNmYtNWY0YzY2OWNjNTYyIiwicyI6Ik1EQmxPVEV3TlRBdFl6ZzBZeTAwTWpJeUxXSTNNbVV0WW1RNE5Ea3hZbVUzWXpnMiJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+DOMAIN = "x.ksos.dpdns.org"                   # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiN2FkYjc4ZDUxYWFkOGFiMDNiMDBjZDY3ZTVjNjM1YmEiLCJ0IjoiNjdhM2RiOWEtNGVlYy00MGQ0LThhYjQtMDlhNWU4YjRkOTVjIiwicyI6Ik56WXdNemRpWWprdE5EWTVPQzAwTm1NeUxUazVPVFl0WVdVek1XVXhaREZpWTJSbSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
